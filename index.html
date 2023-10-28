@@ -21,32 +21,37 @@
     <title>Pishures</title>
   </head>
   <body>
-    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 px-3">
-      <a href="#" class="navbar-brand">
-        <h2>P</h2>
-      </a>
-      <button
-        class="navbar-toggler"
-        data-bs-toggle="collapse"
-        data-bs-target="#navLinks"
-        aria-controls="navLinks"
-        aria-expanded="false"
-        aria-label="Toggle Navigation Bar"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navLinks">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a href="" class="nav-link">ITALY</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link">JAPAN</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link">TURKEY</a>
-          </li>
-        </ul>
+    <nav
+      id="mainNavbar"
+      class="navbar navbar-dark navbar-expand-md fixed-top py-0"
+    >
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand">
+          <h2>P</h2>
+        </a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navLinks"
+          aria-controls="navLinks"
+          aria-expanded="false"
+          aria-label="Toggle Navigation Bar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#italy" class="nav-link">ITALY</a>
+            </li>
+            <li class="nav-item">
+              <a href="#japan" class="nav-link">JAPAN</a>
+            </li>
+            <li class="nav-item">
+              <a href="#turkey" class="nav-link">TURKEY</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -60,7 +65,7 @@
 
     <section class="container-fluid">
       <div class="row align-items-center mb-5">
-        <h3 class="text-left">ITALY</h3>
+        <h3 id="italy" class="text-left">ITALY</h3>
         <div class="col-6 col-md-3 mt-3">
           <img
             src="./images/italy/leaningtowerofpisa.jpg"
@@ -92,7 +97,7 @@
       </div>
 
       <div class="row align-items-center mb-5">
-        <h3 class="text-left">JAPAN</h3>
+        <h3 id="japan" class="text-left">JAPAN</h3>
         <div class="col-6 col-md-3 mt-3">
           <img
             src="./images/japan/pexels-ayako-s-5846615.jpg"
@@ -124,7 +129,7 @@
       </div>
 
       <div class="row align-items-center mb-5">
-        <h3 class="text-left">TURKEY</h3>
+        <h3 id="turkey" class="text-left">TURKEY</h3>
         <div class="col-6 col-md-3 mt-3">
           <img
             src="./images/turkey/pexels-ahmed-mulla-8832092.jpg"
