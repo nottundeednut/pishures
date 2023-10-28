@@ -1,15 +1,16 @@
 body {
-    background-color: #3C6E71;
+    background-color: #D9D9D9;
     font-family: 'Quicksand', sans-serif;
 }
 
 #mainNavbar {
+    background-color: #3C6E71;
     font-size: 1.5rem;
     font-weight: 300;
   }
   
   #mainNavbar .nav-link {
-    color: white;
+    color: #FFFFFF;
   }
   
   #mainNavbar .nav-link:hover {
